@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="City wise Food"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Cart"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="Orders"
+            android:iconTint="@android:color/white"/>
+
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Sign out"
+            android:iconTint="@android:color/white"
+            android:visible="true"/>
+        <item
+            android:id="@+id/nav_sign_in"
+            android:icon="@drawable/ic_arrow_forward_black_24dp"
+            android:title="Sign in"
+            android:iconTint="@android:color/white"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/complain"
+            android:icon="@drawable/ic_complain"
+            android:title="Complain"
+            android:iconTint="@android:color/white"
+            android:visible="true"/>
+        <item
+            android:id="@+id/suggestion"
+            android:icon="@drawable/ic_suggestions"
+            android:title="Suggestion"
+            android:iconTint="@android:color/white"
+            android:visible="true"/>
+        <item
+            android:id="@+id/favoriteFood"
+            android:icon="@drawable/ic_favorite_24dp"
+            android:title="Favorite"
+            android:iconTint="@android:color/white"
+            android:visible="true"/>
+
+    </group>
+
+</menu>

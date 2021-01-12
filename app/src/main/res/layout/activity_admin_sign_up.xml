@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/home_page"
+tools:context=".AdminSignUp">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtName"
+        android:hint="Name"
+        android:drawableStart="@drawable/ic_perm_identity_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/white"
+
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:inputType="text"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+
+            android:id="@+id/code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:drawableStart="@drawable/ic_smartphone_black_24dp"
+            android:paddingStart="10dp"
+            android:text="+92"
+            android:typeface="serif"
+            android:textIsSelectable="false"
+            android:textSize="34sp"
+            android:textColor="@android:color/white"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPhone"
+            android:hint="Phone Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            android:inputType="phone"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+    </LinearLayout>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edtPassword"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/white"
+        android:drawableStart="@drawable/ic_lock__24dp"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:inputType="textPassword"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="11"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+        />
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/btnSignUp"
+    android:text="Sign Up"
+    android:layout_marginRight="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_alignParentBottom="true"
+    android:textColor="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@color/colorPrimary"
+
+    />
+</RelativeLayout>

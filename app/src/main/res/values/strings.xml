@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">AndroidFoodie</string>
+    <string name="slogan">The customer can place an order everywhere and anywhere whenever internet connection is available for them.
+        This APP allow user to order favorite food from their house or office.
+        App will save customer’s time and provide food on their Location. </string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="termsCondition">Your Status By placing an order through our site, you warrant that:
+You are legally capable of entering into binding contracts; and
+You are at least 16 years old; we will not sell or deliver to anyone who is, or appears to be, under the age of 16; we reserve the right not to deliver if we are unsure of this.
+You do not intend to use our site or service for the sale or delivery of any form of alcohol, drugs and/or narcotics. We will refuse deliver any such products to anyone.
+How the contract is formed between you and us
+After placing an order, you will receive an e-mail from us acknowledging that we have received your order. Please note that this does not mean that your order has been accepted. Your order constitutes an offer to us to buy a Product. All orders are subject to acceptance by us, and we will confirm such acceptance to you by sending you an e-mail that confirms that the Product has been dispatched (the Dispatch Confirmation). The contract between us (Contract) will only be formed when we send you the Dispatch Confirmation. We reserve the right to refuse any order or cancel a delivery at any time without giving a reason.
+The Contract will relate only to those Products whose dispatch we have confirmed in the Dispatch Confirmation. We will not be obliged to supply any other Products which may have been part of your order until the dispatch of such Products has been confirmed in a separate Dispatch Confirmation.
+Please note that once you have made your order and your payment has been authorized you will not be able to cancel your order and that refunds may be given at the discretion of the management.
+Our Status
+We are entering into the Contract ourselves and not as nominee or agent for any other person and we alone shall be responsible to you under it; no other person, as agent or otherwise, is entitled or authorised to bind or commit the Company to any obligation to you.
+We may provide links on our site to the websites of other companies (other websites), whether affiliated with us or not. We cannot give any undertaking, that products you purchase from companies to whose website we have provided a link on our site, will be of satisfactory quality, and any such warranties are DISCLAIMED by us absolutely. This DISCLAIMER does not affect your statutory rights against the third party.
+All questions regarding goods shown on our site should be directed to the affiliate restaurant.
+Availability and Delivery
+Your order will be fulfilled by the delivery date/time set out in the Dispatch Confirmation.
+Delivery shall only be made to verified residential addresses and for intended consumption at home.
+Delivery periods quoted at the time of ordering are approximate only and may vary. Products will be delivered to the address designated by you at the time of ordering. You agree to take particular care when providing us with your details and warrant that these details are accurate and complete at the time of ordering.
+In case of a late delivery, the delivery charge will neither be voided nor refunded.
+If you fail to accept delivery of a Product at the time they are ready for delivery, or we are unable to deliver at the nominated time due to your failure to provide appropriate instructions, or authorizations, then such Products shall be deemed to have been delivered to you and all risk and responsibility in relation to such Products shall pass to you. Any storage, insurance and other costs which we incur as a result of the inability to deliver shall be your responsibility and you shall indemnify us in full for such cost.
+In the unlikely event that a wrong item is delivered or a partial delivery is made, you have the right to reject the delivery of the wrong item and you shall be not be liable to make any payment.</string>
+    <string name="title_activity_order_tracker">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

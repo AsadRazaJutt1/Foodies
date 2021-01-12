@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <!--    <Spinner-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:spinnerMode="dropdown"-->
+    <!--        android:id="@+id/spiner1" />-->
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/titleForSuggestion"
+        android:hint="Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:inputType="text"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        app:met_baseColor="@android:color/black"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@android:color/black"
+        app:met_singleLineEllipsis="true"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/suggestionMsg"
+        android:hint="Complain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:textSize="25dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:inputType="textMultiLine"
+        app:met_baseColor="@android:color/black"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@android:color/black"
+        app:met_singleLineEllipsis="true"
+        />
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/suggestionPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/black"
+        android:textSize="25dp"
+        android:visibility="invisible"
+        app:met_baseColor="@android:color/black"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@android:color/black"
+        app:met_singleLineEllipsis="true" />
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:padding="2dp">-->
+<!--        android:weightSum="2">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/cancelSuggestion"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:text="Cancel"-->
+<!--            android:textColor="@android:color/white" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/submitSuggestion"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:text="Submit"-->
+<!--            android:textColor="@android:color/white" />-->
+
+<!--    </LinearLayout>-->
+</LinearLayout>
+

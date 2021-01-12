@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_page"
+    tools:context=".FoodList">
+
+    <com.mancj.materialsearchbar.MaterialSearchBar
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:mt_hint="Enter your Food"
+        app:mt_maxSuggestionsCount="5"
+        app:mt_placeholder="Search Food"
+        app:mt_speechMode="false" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_food"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/searchBar"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/include2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchBar" />
+
+    <com.andremion.counterfab.CounterFab
+        android:id="@+id/fab_F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="10dp"
+        android:backgroundTint="@android:color/white"
+        android:clickable="true"
+        android:focusable="false"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ic_shopping_cart_black_24dp"
+        tools:ignore="MissingConstraints" />
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/bottom_navigation"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <!--        />-->
+    <!--<RelativeLayout-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="wrap_content"-->
+    <!--   >-->
+
+    <!--    <TextView-->
+
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/timing"-->
+    <!--        android:background="@color/colorPrimary"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:layout_marginBottom="50dp"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Timing" />-->
+
+    <!--</RelativeLayout>-->
+</androidx.constraintlayout.widget.ConstraintLayout>

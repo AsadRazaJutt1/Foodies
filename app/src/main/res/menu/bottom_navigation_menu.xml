@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="Cart"
+        android:iconTint="@android:color/white"/>
+    <item
+        android:id="@+id/nav_Restaurants"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        android:title="Our Restaurants"
+        android:iconTint="@android:color/white"/>
+    <item
+        android:id="@+id/nav_find_Restaurants"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="Find Restaurants"
+        android:iconTint="@android:color/white"/>
+
+    <item
+        android:id="@+id/favoriteFood"
+        android:icon="@drawable/ic_favorite_24dp"
+        android:title="Favorite"
+        android:iconTint="@android:color/white"
+        android:visible="true"/>
+
+</menu>
